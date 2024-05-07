@@ -39,9 +39,9 @@ function ReviewForm() {
         <TableBody>
           {storedDoctorData.map((doctor) => (
             <TableRow key={doctor.name}>
-              <TableCell>{doctor.name}</TableCell>
-              <TableCell align="centre">{doctor.speciality}</TableCell>
-              <TableCell align="centre">{doctor.experience}</TableCell>
+              <TableCell align="center">{doctor.name}</TableCell>
+              <TableCell align="center">{doctor.speciality}</TableCell>
+              <TableCell align="center">{doctor.experience}</TableCell>
               <TableCell><GiveReviews></GiveReviews></TableCell>
               <TableCell>No Review</TableCell>
             </TableRow>

@@ -96,9 +96,11 @@ function Navbar () {
                                     Profil
                                 </MenuItem>
                             </Link>
+                            <Link to="/report-form">
                             <MenuItem onClick={handleClose}>
                                 Reports
                             </MenuItem>
+                            </Link>
                         </Menu>
                     </div> 
                     <li className="link">
